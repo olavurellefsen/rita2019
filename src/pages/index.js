@@ -220,6 +220,7 @@ const IndexPage = () => (
                     <label htmlFor="message">Viðmerking</label>
                     <textarea name="message" id="message" rows="3" />
                   </div>
+                  <div data-netlify-recaptcha="true"></div>
                 </div>
                 <ul className="actions">
                   <li>
