@@ -10,6 +10,7 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
+			@include vendor('align-items', 'center');
 			min-height: 22.5em;
 
 			body.is-ie & {
