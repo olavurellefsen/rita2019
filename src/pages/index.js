@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import Footer from '../components/Footer';
@@ -17,21 +16,25 @@ const IndexPage = () => (
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
           <h1>#rita1tíma</h1>
-          <p>
-            Lær at forrita við{' '}
-            <a href="https://blockly.games/?lang=fo">blokkaspæli á føroyskum</a>{' '}
-            og vinn ein biograftúr til allan flokkin.
-          </p>
+          <p>Lær at forrita í skúlanum 9.-15. desember 2019</p>
           <p>
             <Scroll type="id" element="three">
-              <a href="#three">Skráset flokkin</a>
-            </Scroll>{' '}
-            og send mynd til KT-felagið.
+              <a href="#three">Skrásetið tykkum</a>
+            </Scroll>
+            , sendið myndir til KT-felagið og vinnið ein biograftúr til allan
+            flokkin.
           </p>
           <ul className="actions">
             <li>
+              <Scroll type="id" element="one">
+                <a href="#one" className="button">
+                  Hvat er tað?
+                </a>
+              </Scroll>
+            </li>
+            <li>
               <a href="https://blockly.games/?lang=fo" className="button">
-                Blokkaspæl
+                Royn at forrita á føroyskum
               </a>
             </li>
           </ul>
@@ -45,17 +48,18 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Hvussu</h2>
+              <h2>Hvat er tað?</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Rita1tíma er eitt tiltak, har næmingar læra um forritan við at
+                loysa avbjóðingar í blokkaspælinum, sum er umsett til føroyskt.
+                Neyðugt er at næmingarnir hava atgongd til teldu ella teldil.
+                Tiltakið er ætlað at taka ein skúlatíma.
               </p>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
-                    Lær meira
-                  </Link>
+                  <a href="https://blockly.games/?lang=fo" className="button">
+                    Blokkaspælið
+                  </a>
                 </li>
               </ul>
             </div>
@@ -67,17 +71,18 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Feugiat consequat</h2>
+              <h2>Hvussu skipa vit tað í flokkinum?</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Lærarar skipa fyri tiltakinum í flokkinum - møguliga hjálptir av
+                KT-fólki uttanifrá. Blokkaspælið er gjørt soleiðis, at tað ber
+                til hjá næmingunum sjálvum at loysa avbjóðingarnar. Lærararnir
+                skipa fyri, seta í gongd, vegleiða og taka samanum.
               </p>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
-                    Lær meira
-                  </Link>
+                  <a href="https://hourofcode.com/us/how-to" className="button">
+                    Vegleiðing til lærarar
+                  </a>
                 </li>
               </ul>
             </div>
@@ -89,17 +94,20 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <div className="inner">
-              <h2>Ultricies aliquam</h2>
+              <h2>Hvat fáa næmingarnir burtur úr?</h2>
               <p>
-                Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-                turpis mauris, eu ultricies erat malesuada quis. Aliquam
-                dapibus.
+                Við at royna at forrita í blokkaspælinum fáa næmingarnir eina
+                fyrstu fatan av, hvat forritan er og hvussu tú forritar. Tað
+                sigur seg sjálvt, at tey gerast ikki serfrøðingar eftir einum
+                tíma, men vónandi verður hugurin kveiktur at læra meira.
               </p>
               <ul className="actions">
                 <li>
-                  <Link className="button" to="/generic">
-                    Lær meira
-                  </Link>
+                  <Scroll type="id" element="three">
+                    <a href="#three" className="button">
+                      Skrásetið tykkum
+                    </a>
+                  </Scroll>
                 </li>
               </ul>
             </div>
@@ -111,68 +119,87 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Um #rita1tíma</h2>
           <p>
-            KT-felagið skipar fyri #rita1tíma fyri at kveikja áhugan fyri
-            forritan millum ung. Endamálið er at øll skulu fáa eina
-            grundleggjandi fatan av forritan, so at tey kunnu stýra teldunum
-            heldur enn at lata teldurnar stýra teimum.
+            Tiltakið #rita1tíma verður á skúlum kring landið í døgunum 9. til
+            15. desember 2019. Síðani 2016 hevur KT-felagið skipað fyri
+            #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
+            <a href="https://hourofcode.org">Hour of Code</a>.
+          </p>
+          <p>
+            Endamálið er at kveikja áhugan fyri forritan millum ung. KT-felagið
+            ynskir, at øll fáa eina grundleggjandi fatan av forritan, soleiðis
+            at vit kunnu stýra teldunum heldur enn at lata teldurnar stýra
+            okkum.
           </p>
           <div className="features">
             <section>
-              <span className="icon major fa-code" />
-              <h3>Lorem ipsum amet</h3>
+              <span className="icon major fa-laptop" />
+              <h3>Hvat krevst?</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-lock" />
-              <h3>Aliquam sed nullam</h3>
-              <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Fyri at luttaka er neyðugt at hava teldu ella teldil við
+                internetsambandi.
               </p>
             </section>
             <section>
               <span className="icon major fa-cog" />
-              <h3>Sed erat ullam corper</h3>
+              <h3>Ber til at luttaka uttan internet?</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Ja, tað ber til at{' '}
+                <a href="https://github.com/google/blockly-games/raw/offline/generated/blockly-games-fr.zip">
+                  taka Blokkaspælið niður
+                </a>{' '}
+                og forrita uttan internetsamband.
               </p>
             </section>
             <section>
-              <span className="icon major fa-desktop" />
-              <h3>Veroeros quis lorem</h3>
+              <span className="icon major fa-money" />
+              <h3>Kostar tað nakað?</h3>
+              <p>Tað er ókeypis at luttaka í #rita1tíma.</p>
+            </section>
+            <section>
+              <span className="icon major fa-lock" />
+              <h3>Hvat verða myndirnar brúktar til?</h3>
+              <p>Útvaldar myndir verða vístar á hesari síðuni.</p>
+            </section>
+            <section>
+              <span className="icon major fa-cog" />
+              <h3>Kunnu vit fáa hjálp?</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Tankin er, at lærarar sjálvir fyriskipa tiltakið í einstøku
+                flokkunum. Tó ber til at heita á KT-felagið (sí niðanfyri) um at
+                seta tykkum í samband við KT-fólk, ið kunnu hjálpa ókeypis.
               </p>
             </section>
             <section>
-              <span className="icon major fa-chain" />
-              <h3>Urna quis bibendum</h3>
+              <span className="icon major fa-address-book" />
+              <h3>Hvør kann luttaka?</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Allir flokkar frá 1. flokki til og við miðnámsskúla kunnu
+                luttaka.
               </p>
             </section>
             <section>
-              <span className="icon major fa-diamond" />
-              <h3>Aliquam urna dapibus</h3>
+              <span className="icon major fa-language" />
+              <h3>Ber til at gera málsligar rættingar?</h3>
               <p>
-                Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-                aliquam turpis mauris, sed ultricies erat dapibus.
+                Tað ber til at gera málsligar rættingar til blokkaspælið inni á{' '}
+                <a href="https://translatewiki.net/w/i.php?title=Special:Translate&group=out-blockly-games&language=fo&filter=&action=translate">
+                  TranslateWiki.
+                </a>
+              </p>
+            </section>
+            <section>
+              <span className="icon major fa-code" />
+              <h3>
+                Eru aðrar uppgávur enn{' '}
+                <a href="https://blockly.games/?lang=fo">blokkaspælið</a>?
+              </h3>
+              <p>
+                Ja, inni á{' '}
+                <a href="https://hourofcode.com/us/learn">hourofcode.org</a> er
+                ein langur listi við øðrum avbjóðingum.
               </p>
             </section>
           </div>
-          <ul className="actions">
-            <li>
-              <Link className="button" to="/generic">
-                Lær meira
-              </Link>
-            </li>
-          </ul>
         </div>
       </section>
 
@@ -180,15 +207,16 @@ const IndexPage = () => (
         <div className="inner">
           <h2>Skráset flokkin</h2>
           <p>
-            KT-felagið skipar fyri kapping millum allar skúlaflokkar, sum
-            luttaka í #rita1tíma. Fyri at luttaka mugu tit skráseta tykkum her,
-            og síðani senda KT-felagnum (marius@industry.fo) eina ella fleiri
-            myndir frá tí tímanum, sum tit forrita. Vinningurin er ein túrur í
-            biograf fyri allan flokkin.
+            KT-felagið skipar fyri lutakasti millum allar skúlaflokkar, sum
+            luttaka í #rita1tíma. Tit skráseta tykkum her og senda síðani
+            KT-felagnum (marius@industry.fo) eina ella fleiri myndir frá tí
+            tímanum, tá tit forrita. Vinningurin er ein túrur í biograf fyri
+            allan flokkin.
           </p>
           <p>
-            Seinasta freist at senda myndir inn er sunnudagin 15. desember.
-            Lutakastið er í Vinnuhúsinum mánadagin 16. desember.
+            Lutakastið millum tey, ið hava sent inn myndir í seinasta lagi
+            sunnudagin 15. desember, verður í Vinnuhúsinum mánadagin 16.
+            desember.
           </p>
           <div className="split style1">
             <section>
@@ -224,9 +252,9 @@ const IndexPage = () => (
                 </div>
                 <ul className="actions">
                   <li>
-                    <a href="/#" className="button submit">
-                      Send Message
-                    </a>
+                    <button type="submit" className="button submit">
+                      Skráset flokkin
+                    </button>
                   </li>
                 </ul>
               </form>
@@ -235,7 +263,11 @@ const IndexPage = () => (
               <ul className="contact">
                 <li>
                   <h3>Kontaktpersónur</h3>
-                  <span>Marius Thomassen</span>
+                  <span>
+                    Marius Thomassen
+                    <br />
+                    samskipari, KT-felagið
+                  </span>
                 </li>
 
                 <li>
