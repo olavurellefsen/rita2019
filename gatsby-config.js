@@ -4,6 +4,12 @@ module.exports = {
     title: '#rita1tíma',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-112926113-2",
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -17,19 +23,6 @@ module.exports = {
         icon: 'src/assets/img/website-icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-112926113-2",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        pageTransitionDelay: 0,
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "rita.fo",
-      },
-    },    
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
   ],
