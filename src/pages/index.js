@@ -16,13 +16,12 @@ const IndexPage = () => (
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
           <h1>#rita1tíma</h1>
-          <p>Lær at forrita í skúlanum 9.-15. desember 2019</p>
+          <p>Lær at forrita í skúlanum 9.-13. desember 2019</p>
           <p>
             <Scroll type="id" element="three">
               <a href="#three">Skrásetið tykkum</a>
             </Scroll>
-            , sendið myndir til KT-felagið og vinnið ein biograftúr til allan
-            flokkin.
+            , forritið í ein tíma og vinnið ein biograftúr til allan flokkin.
           </p>
           <ul className="actions">
             <li>
@@ -120,7 +119,7 @@ const IndexPage = () => (
           <h2>Um #rita1tíma</h2>
           <p>
             Tiltakið #rita1tíma verður á skúlum kring landið í døgunum 9. til
-            15. desember 2019. Síðani 2016 hevur KT-felagið skipað fyri
+            13. desember 2019. Síðani 2016 hevur KT-felagið skipað fyri
             #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
             <a href="https://hourofcode.org">Hour of Code</a>.
           </p>
@@ -156,11 +155,6 @@ const IndexPage = () => (
               <p>Tað er ókeypis at luttaka í #rita1tíma.</p>
             </section>
             <section>
-              <span className="icon major fa-lock" />
-              <h3>Hvat verða myndirnar brúktar til?</h3>
-              <p>Útvaldar myndir verða vístar á hesari síðuni.</p>
-            </section>
-            <section>
               <span className="icon major fa-cog" />
               <h3>Kunnu vit fáa hjálp?</h3>
               <p>
@@ -175,16 +169,6 @@ const IndexPage = () => (
               <p>
                 Allir flokkar frá 1. flokki til og við miðnámsskúla kunnu
                 luttaka.
-              </p>
-            </section>
-            <section>
-              <span className="icon major fa-language" />
-              <h3>Ber til at gera málsligar rættingar?</h3>
-              <p>
-                Tað ber til at gera málsligar rættingar til blokkaspælið inni á{' '}
-                <a href="https://translatewiki.net/w/i.php?title=Special:Translate&group=out-blockly-games&language=fo&filter=&action=translate">
-                  TranslateWiki.
-                </a>
               </p>
             </section>
             <section>
@@ -208,14 +192,12 @@ const IndexPage = () => (
           <h2>Skráset flokkin</h2>
           <p>
             KT-felagið skipar fyri lutakasti millum allar skúlaflokkar, sum
-            luttaka í #rita1tíma. Tit skráseta tykkum her og senda síðani
-            KT-felagnum (marius@industry.fo) eina ella fleiri myndir frá tí
-            tímanum, tá tit forrita. Vinningurin er ein túrur í biograf fyri
-            allan flokkin.
+            luttaka í #rita1tíma. Tit skráseta tykkum her og forrita síðani í
+            ein tíma millum 9. og 13. desember 2019. Vinningurin er ein túrur í
+            biograf fyri allan flokkin.
           </p>
           <p>
-            Lutakastið millum tey, ið hava sent inn myndir í seinasta lagi
-            sunnudagin 15. desember, verður í Vinnuhúsinum mánadagin 16.
+            Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum mánadagin 16.
             desember.
           </p>
           <div className="split style1">
