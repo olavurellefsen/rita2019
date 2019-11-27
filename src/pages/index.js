@@ -32,6 +32,13 @@ const IndexPage = () => (
               </Scroll>
             </li>
             <li>
+              <Scroll type="id" element="three">
+                <a href="#three" className="button">
+                  Skráset flokkin
+                </a>
+              </Scroll>
+            </li>
+            <li>
               <a href="https://blockly.games/?lang=fo" className="button">
                 Royn at forrita á føroyskum
               </a>
@@ -56,9 +63,11 @@ const IndexPage = () => (
               </p>
               <ul className="actions">
                 <li>
-                  <a href="https://blockly.games/?lang=fo" className="button">
-                    Blokkaspælið
-                  </a>
+                  <Scroll type="id" element="three">
+                    <a href="#three" className="button">
+                      Skrásetið tykkum
+                    </a>
+                  </Scroll>
                 </li>
               </ul>
             </div>
@@ -97,16 +106,14 @@ const IndexPage = () => (
               <p>
                 Við at royna at forrita í blokkaspælinum fáa næmingarnir eina
                 fyrstu fatan av, hvat forritan er og hvussu tú forritar. Tað
-                sigur seg sjálvt, at tey gerast ikki serfrøðingar eftir einum
+                sigur seg sjálvt, at tú gerst ikki serfrøðingur eftir einum
                 tíma, men vónandi verður hugurin kveiktur at læra meira.
               </p>
               <ul className="actions">
                 <li>
-                  <Scroll type="id" element="three">
-                    <a href="#three" className="button">
-                      Skrásetið tykkum
-                    </a>
-                  </Scroll>
+                  <a href="https://blockly.games/?lang=fo" className="button">
+                    Blokkaspælið
+                  </a>
                 </li>
               </ul>
             </div>
@@ -197,8 +204,8 @@ const IndexPage = () => (
             biograf fyri allan flokkin.
           </p>
           <p>
-            Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum mánadagin 16.
-            desember.
+            Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum
+            mánadagin 16. desember.
           </p>
           <div className="split style1">
             <section>
