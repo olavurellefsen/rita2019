@@ -23,7 +23,7 @@
   > .inner {
     @include vendor('display', 'flex');
     @include vendor('flex-direction', 'column');
-    @include vendor('justify-content', 'center');
+    @include vendor('justify-content', 'flex-start');
     @include vendor('transform', 'translateY(0)');
     @include vendor('transition', ('opacity #{_duration(activation)} ease'));
     min-height: 100%;
@@ -49,14 +49,10 @@
             'transform #{_duration(activation) * 0.75} ease'
           )
         );
-        margin: 1.5em 0 0 0;
+        margin: 0.5em 0 0 0;
         opacity: 1;
         padding: 0;
         position: relative;
-
-        &:first-child {
-          margin: 0;
-        }
 
         @for $i from 1 through _misc(max-sidebar-links) {
           &:nth-child(#{$i}) {
@@ -173,6 +169,7 @@
 
       ul {
         @include vendor('display', 'flex');
+        @include vendor('justify-content', 'space-around');
         height: inherit;
         line-height: inherit;
         margin: 0;
@@ -181,7 +178,7 @@
           display: block;
           height: inherit;
           line-height: inherit;
-          margin: 0 0 0 2em;
+          margin: 0 0 0 1.5em;
           padding: 0;
         }
       }
@@ -200,6 +197,5 @@
   }
 
   @include breakpoint('<=small') {
-    display: none;
   }
 }
