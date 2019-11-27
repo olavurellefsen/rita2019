@@ -8,9 +8,9 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'Heim', href: 'intro' },
-        { content: 'Hvat og hvussu', href: 'one' },
+        { content: 'Hvat', href: 'one' },
         { content: 'Um #rita1tíma', href: 'two' },
-        { content: 'Skráset flokkin', href: 'three' },
+        { content: 'Skráset', href: 'three' },
       ],
     };
   }
