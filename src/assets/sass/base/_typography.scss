@@ -14,14 +14,14 @@
 		line-height: 1.75;
 
 		@include breakpoint('<=xlarge') {
-			font-size: 13pt;
+			font-size: 16.5pt;
 		}
 
 		@include breakpoint('<=large') {
-			font-size: 12pt;
+			font-size: 16.5pt;
 		}
 
-		@include breakpoint('<=xxsmall') {
+		@include breakpoint('<=xsmall') {
 			font-size: 11pt;
 		}
 	}
@@ -57,8 +57,8 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
-		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.25) 0;
+		line-height: 1;
+		margin: _size(element-margin) 0 (_size(element-margin) * 0.25) 0;
 
 		a {
 			color: inherit;
