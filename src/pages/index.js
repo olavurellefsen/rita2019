@@ -16,7 +16,12 @@ const IndexPage = () => (
       <section id="intro" className="wrapper style1 fullscreen fade-up">
         <div className="inner">
           <h1>#rita1tíma</h1>
-          <p>Lær at forrita í skúlanum 9.-13. desember 2019</p>
+          <p>
+            Í ár verður lært at forrita í{' '}
+            <a href="https://blockly.games/?lang=fo">blokkaspælinum</a>, sum er
+            á føroyskum
+          </p>
+          <p>Tiltakið er 9.-13. desember 2019</p>
           <p>
             <Scroll type="id" element="three">
               <a href="#three">Skrásetið tykkum</a>
@@ -30,18 +35,6 @@ const IndexPage = () => (
                   Hvat er tað?
                 </a>
               </Scroll>
-            </li>
-            <li>
-              <Scroll type="id" element="three">
-                <a href="#three" className="button">
-                  Skráset flokkin
-                </a>
-              </Scroll>
-            </li>
-            <li>
-              <a href="https://blockly.games/?lang=fo" className="button">
-                Royn at forrita á føroyskum
-              </a>
             </li>
           </ul>
         </div>
@@ -68,6 +61,11 @@ const IndexPage = () => (
                       Skrásetið tykkum
                     </a>
                   </Scroll>
+                </li>
+                <li>
+                  <a href="https://blockly.games/?lang=fo" className="button">
+                    Blokkaspælið
+                  </a>
                 </li>
               </ul>
             </div>
@@ -232,6 +230,14 @@ const IndexPage = () => (
                   <div className="field half">
                     <label htmlFor="email">Teldupostur</label>
                     <input type="email" name="email" id="email" />
+                  </div>
+                  <div className="field half">
+                    <label htmlFor="name">Tal av næmingum</label>
+                    <input type="text" name="luttakarar" id="luttakarar" />
+                  </div>
+                  <div className="field half">
+                    <label htmlFor="name">Fartelefon</label>
+                    <input type="text" name="fartelefon" id="fartelefon" />
                   </div>
                   <div className="field">
                     <label htmlFor="message">Viðmerking</label>
