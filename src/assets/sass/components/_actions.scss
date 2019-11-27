@@ -8,13 +8,14 @@
 
 	ul.actions {
 		@include vendor('display', 'flex');
+		@include vendor('flex-wrap', 'wrap');
 		cursor: default;
 		list-style: none;
 		margin-left: (_size(element-margin) * -0.5);
 		padding-left: 0;
 
 		li {
-			padding: 0 0 0 (_size(element-margin) * 0.5);
+			padding: 0 0 _size(element-margin) (_size(element-margin) * 0.5);
 			vertical-align: middle;
 		}
 
