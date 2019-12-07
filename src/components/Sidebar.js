@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
-import Scroll from './Scroll';
 
 export class Sidebar extends Component {
   constructor(props) {
@@ -8,9 +7,9 @@ export class Sidebar extends Component {
     this.state = {
       tabs: [
         { content: 'Heim', href: 'intro' },
-        { content: 'Hvat', href: 'one' },
-        { content: 'Um #rita1tíma', href: 'two' },
-        { content: 'Skráset', href: 'three' },
+        { content: 'Hvat', href: 'hvat' },
+        { content: 'Um #rita1tíma', href: 'um' },
+        { content: 'Skráset', href: 'skraset' },
       ],
     };
   }
@@ -30,9 +29,7 @@ export class Sidebar extends Component {
                 const { href, content } = tab;
                 return (
                   <li key={href}>
-                    <Scroll type="id" element={href}>
-                      <a href={`#${href}`}>{content}</a>
-                    </Scroll>
+                    <a href={`/#${href}`}>{content}</a>
                   </li>
                 );
               })}
