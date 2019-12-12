@@ -18,7 +18,7 @@ const IndexPage = () => (
             <h1>#rita1tíma</h1>
             <p>
               Í ár verður lært at forrita í{' '}
-              <Link to="/about">blokkaspølunum</Link>, sum er á føroyskum
+              <Link to="/about">blokkaspølunum</Link>, sum eru á føroyskum
             </p>
             <p>Tiltakið er 9.-13. desember 2019</p>
             <p>
@@ -46,7 +46,7 @@ const IndexPage = () => (
                 <h2>Hvat er tað?</h2>
                 <p>
                   Rita1tíma er eitt tiltak, har næmingar læra um forritan við at
-                  loysa avbjóðingar í blokkaspølunum, sum er umsett til
+                  loysa avbjóðingar í blokkaspølunum, sum eru umsett til
                   føroyskt. Neyðugt er, at næmingarnir hava atgongd til teldu
                   ella teldil. Tiltakið er ætlað at taka ein skúlatíma.
                 </p>
@@ -121,7 +121,7 @@ const IndexPage = () => (
           <div className="inner">
             <h2>Um #rita1tíma</h2>
             <p>
-              Tiltakið #rita1tíma verður á skúlum kring landið í døgunum 9. til
+              Tiltakið #rita1tíma er á skúlum kring landið í døgunum 9. til
               13. desember 2019. Síðani 2016 hevur KT-felagið skipað fyri
               #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
               <a href="https://hourofcode.org">Hour of Code</a>.
@@ -146,7 +146,7 @@ const IndexPage = () => (
                 <h3>Ber til at luttaka uttan internet?</h3>
                 <p>
                   Ja, tað ber til at{' '}
-                  <a href="https://github.com/google/blockly-games/raw/offline/generated/blockly-games-fr.zip">
+                  <a href="https://github.com/google/blockly-games/raw/offline/generated">
                     taka Blokkaspølini niður
                   </a>{' '}
                   og forrita uttan internetsamband.
@@ -177,7 +177,7 @@ const IndexPage = () => (
               <section>
                 <span className="icon major fa-code" />
                 <h3>
-                  Eru aðrar uppgávur enn <Link to="/about">>blokkaspølini</Link>
+                  Eru aðrar uppgávur enn <Link to="/about">blokkaspølini</Link>
                   ?
                 </h3>
                 <p>
