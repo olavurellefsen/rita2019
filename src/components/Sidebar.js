@@ -9,7 +9,7 @@ export class Sidebar extends Component {
         { content: 'Heim', href: 'intro' },
         { content: 'Hvat', href: 'hvat' },
         { content: 'Um #rita1tíma', href: 'um' },
-        { content: 'Skráset', href: 'skraset' },
+        { content: 'Samband', href: 'samband' },
       ],
     };
   }
