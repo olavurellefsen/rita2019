@@ -20,7 +20,7 @@ const IndexPage = () => (
               Í ár verður lært at forrita í{' '}
               <Link to="/about">blokkaspølunum</Link>, sum eru á føroyskum
             </p>
-            <p>Tiltakið er 7.-11. desember 2020</p>
+            <p>Tiltakið er 7.-18. desember 2020</p>
             <p>
               <a href="#skraset">Skrásetið tykkum</a>, forritið í ein tíma og
               vinnið ein biograftúr til allan flokkin.
@@ -121,7 +121,7 @@ const IndexPage = () => (
           <div className="inner">
             <h2>Um #rita1tíma</h2>
             <p>
-              Tiltakið #rita1tíma er á skúlum kring landið í døgunum 7. til 11.
+              Tiltakið #rita1tíma er á skúlum kring landið í døgunum 7. til 18.
               desember 2020. Síðani 2016 hevur KT-felagið skipað fyri
               #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
               <a href="https://hourofcode.org">Hour of Code</a>.
@@ -196,12 +196,12 @@ const IndexPage = () => (
             <p>
               KT-felagið skipar fyri lutakasti millum allar skúlaflokkar, sum
               luttaka í #rita1tíma. Tit skráseta tykkum her og forrita síðani í
-              ein tíma millum 7. og 11. desember 2020. Vinningurin er ein túrur
+              ein tíma millum 7. og 18. desember 2020. Vinningurin er ein túrur
               í biograf fyri allan flokkin.
             </p>
             <p>
               Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum
-              mánadagin 14. desember 2020.
+              mánadagin 21. desember 2020.
             </p>
             <div className="split style1">
               <section>
