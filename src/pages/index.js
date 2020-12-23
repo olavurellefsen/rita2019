@@ -17,13 +17,13 @@ const IndexPage = () => (
           <div className="inner">
             <h1>#rita1tíma</h1>
             <p>
-              Í ár verður lært at forrita í{' '}
+              Í ár varð lært at forrita í{' '}
               <Link to="/about">blokkaspølunum</Link>, sum eru á føroyskum
             </p>
-            <p>Tiltakið er 7.-18. desember 2020</p>
+            <p>Tiltakið var 7.-18. desember 2020</p>
             <p>
-              <a href="#skraset">Skrásetið tykkum</a>, forritið í ein tíma og
-              vinnið ein biograftúr til allan flokkin.
+              Lutakast var millum teir luttakandi flokkarnar, og 6.a í Hoyvíkar
+              skúla vann ein biograftúr til allan flokkin.
             </p>
             <ul className="actions">
               <li>
@@ -121,7 +121,7 @@ const IndexPage = () => (
           <div className="inner">
             <h2>Um #rita1tíma</h2>
             <p>
-              Tiltakið #rita1tíma er á skúlum kring landið í døgunum 7. til 18.
+              Tiltakið #rita1tíma var á skúlum kring landið í døgunum 7. til 18.
               desember 2020. Síðani 2016 hevur KT-felagið skipað fyri
               #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
               <a href="https://hourofcode.org">Hour of Code</a>.
@@ -189,122 +189,59 @@ const IndexPage = () => (
           </div>
         </section>
       </ScrollableAnchor>
-      <ScrollableAnchor id={'skraset'}>
-        <section id="skraset" className="wrapper style1 fade-up">
+      <ScrollableAnchor id={'samband'}>
+        <section id="samband" className="wrapper style1 fade-up">
           <div className="inner">
-            <h2>Skráset flokkin</h2>
-            <p>
-              KT-felagið skipar fyri lutakasti millum allar skúlaflokkar, sum
-              luttaka í #rita1tíma. Tit skráseta tykkum her og forrita síðani í
-              ein tíma millum 7. og 18. desember 2020. Vinningurin er ein túrur
-              í biograf fyri allan flokkin.
-            </p>
-            <p>
-              Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum
-              mánadagin 21. desember 2020.
-            </p>
-            <div className="split style1">
-              <section>
-                <form
-                  name="rita1timaflokkar"
-                  method="post"
-                  netlify-honeypot="bot-field"
-                  data-netlify="true"
-                >
-                  <input type="hidden" name="bot-field" />{' '}
-                  <div className="fields">
-                    <div className="field half">
-                      <label htmlFor="name">Skúli</label>
-                      <input type="text" name="skuli" id="skuli" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Flokkur</label>
-                      <input type="text" name="flokkur" id="flokkur" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Lærari</label>
-                      <input type="text" name="name" id="name" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="email">Teldupostur</label>
-                      <input type="email" name="email" id="email" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Tal av næmingum</label>
-                      <input type="text" name="luttakarar" id="luttakarar" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Fartelefon</label>
-                      <input type="text" name="fartelefon" id="fartelefon" />
-                    </div>
-                    <div className="field">
-                      <label htmlFor="message">Viðmerking</label>
-                      <textarea name="message" id="message" rows="3" />
-                    </div>
-                    <div data-netlify-recaptcha="true"></div>
-                  </div>
-                  <ul className="actions">
-                    <li>
-                      <button type="submit" className="button submit">
-                        Skráset flokkin
-                      </button>
-                    </li>
-                  </ul>
-                </form>
-              </section>
-              <section>
-                <ul className="contact">
+            <h2>Kontakta okkum</h2>
+            <ul className="contact">
+              <li>
+                <h3>Kontaktpersónur</h3>
+                <span>
+                  Marius Thomassen
+                  <br />
+                  samskipari, KT-felagið
+                </span>
+              </li>
+              <li>
+                <h3>Bústaður</h3>
+                <span>
+                  Óðinshædd 2
+                  <br />
+                  FO-100 Tórshavn
+                  <br />
+                  Føroyar
+                </span>
+              </li>
+              <li>
+                <h3>Teldupostur</h3>
+                <a href="mailto:marius@industry.fo">marius@industry.fo</a>
+              </li>
+              <li>
+                <h3>Fartelefon</h3>
+                <span>+298 739905</span>
+              </li>
+              <li>
+                <h3>Sosialir miðlar</h3>
+                <ul className="icons">
                   <li>
-                    <h3>Kontaktpersónur</h3>
-                    <span>
-                      Marius Thomassen
-                      <br />
-                      samskipari, KT-felagið
-                    </span>
-                  </li>
-
-                  <li>
-                    <h3>Bústaður</h3>
-                    <span>
-                      Óðinshædd 2
-                      <br />
-                      FO-100 Tórshavn
-                      <br />
-                      Føroyar
-                    </span>
+                    <a
+                      href="https://twitter.com/rita1tima"
+                      className="fa-twitter"
+                    >
+                      <span className="label">Twitter</span>
+                    </a>
                   </li>
                   <li>
-                    <h3>Teldupostur</h3>
-                    <a href="mailto:marius@industry.fo">marius@industry.fo</a>
-                  </li>
-                  <li>
-                    <h3>Fartelefon</h3>
-                    <span>+298 739905</span>
-                  </li>
-                  <li>
-                    <h3>Sosialir miðlar</h3>
-                    <ul className="icons">
-                      <li>
-                        <a
-                          href="https://twitter.com/rita1tima"
-                          className="fa-twitter"
-                        >
-                          <span className="label">Twitter</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://facebook.com/rita1tima"
-                          className="fa-facebook"
-                        >
-                          <span className="label">Facebook</span>
-                        </a>
-                      </li>
-                    </ul>
+                    <a
+                      href="https://facebook.com/rita1tima"
+                      className="fa-facebook"
+                    >
+                      <span className="label">Facebook</span>
+                    </a>
                   </li>
                 </ul>
-              </section>
-            </div>
+              </li>
+            </ul>
           </div>
         </section>
       </ScrollableAnchor>
