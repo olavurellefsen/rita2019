@@ -190,63 +190,9 @@ const IndexPage = () => (
           <div className="inner">
             <h2>Skráset flokkin</h2>
             <p>
-              KT-felagið skipar fyri lutakasti millum allar skúlaflokkar, sum
-              luttaka í #rita1tíma. Tit skráseta tykkum her og forrita síðani í
-              ein tíma millum 6. og 17. desember 2021. Vinningurin er ein túrur
-              í biograf fyri allan flokkin.
-            </p>
-            <p>
-              Lutakastið millum luttakandi flokkarnar verður í Vinnuhúsinum beint fyri jól.
+              Til ber ikki at skráseta flokkin nú, men vend tær til KT-felagið, um tú hevur spurningar.
             </p>
             <div className="split style1">
-              <section>
-                <form
-                  name="rita1timaflokkar"
-                  method="post"
-                  netlify-honeypot="bot-field"
-                  data-netlify="true"
-                >
-                  <input type="hidden" name="bot-field" />{' '}
-                  <div className="fields">
-                    <div className="field half">
-                      <label htmlFor="name">Skúli</label>
-                      <input type="text" name="skuli" id="skuli" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Flokkur</label>
-                      <input type="text" name="flokkur" id="flokkur" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Lærari</label>
-                      <input type="text" name="name" id="name" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="email">Teldupostur</label>
-                      <input type="email" name="email" id="email" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Tal av næmingum</label>
-                      <input type="text" name="luttakarar" id="luttakarar" />
-                    </div>
-                    <div className="field half">
-                      <label htmlFor="name">Fartelefon</label>
-                      <input type="text" name="fartelefon" id="fartelefon" />
-                    </div>
-                    <div className="field">
-                      <label htmlFor="message">Viðmerking</label>
-                      <textarea name="message" id="message" rows="3" />
-                    </div>
-                    <div data-netlify-recaptcha="true"></div>
-                  </div>
-                  <ul className="actions">
-                    <li>
-                      <button type="submit" className="button submit">
-                        Skráset flokkin
-                      </button>
-                    </li>
-                  </ul>
-                </form>
-              </section>
               <section>
                 <ul className="contact">
                   <li>
