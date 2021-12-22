@@ -17,14 +17,10 @@ const IndexPage = () => (
           <div className="inner">
             <h1>#rita1tíma</h1>
             <p>
-              Í ár varð lært at forrita í{' '}
+              Í ár lærdu vit at forrita í{' '}
               <Link to="/about">blokkaspølunum</Link>, sum eru á føroyskum
             </p>
-            <p>Tiltakið var 7.-18. desember 2020</p>
-            <p>
-              Lutakast var millum teir luttakandi flokkarnar, og 6.a í Hoyvíkar
-              skúla vann ein biograftúr til allan flokkin.
-            </p>
+            <p>Tiltakið varð 6.-17. desember 2021</p>
             <ul className="actions">
               <li>
                 <a href="/#hvat" className="button">
@@ -121,8 +117,8 @@ const IndexPage = () => (
           <div className="inner">
             <h2>Um #rita1tíma</h2>
             <p>
-              Tiltakið #rita1tíma var á skúlum kring landið í døgunum 7. til 18.
-              desember 2020. Síðani 2016 hevur KT-felagið skipað fyri
+              Tiltakið #rita1tíma var á skúlum kring landið í døgunum 6. til 17.
+              desember 2021. Síðani 2016 hevur KT-felagið skipað fyri
               #rita1tíma. Tiltakið er samskipað við altjóða átakið{' '}
               <a href="https://hourofcode.org">Hour of Code</a>.
             </p>
